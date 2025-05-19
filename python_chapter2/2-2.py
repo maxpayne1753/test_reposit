@@ -15,3 +15,15 @@ g = "{0:^10}".format('hi')
 print(g)
 h = "{0:*^30}".format('hi')
 print(h)
+
+a = 'hobby'
+print(a.count('b'))
+print(a.find('o'))
+
+q = ",".join('abcdefg')
+print(q)
+print(a.upper())
+w = "  h  "
+print(w)
+print(w.lstrip())
+
